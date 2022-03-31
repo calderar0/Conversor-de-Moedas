@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="main.js"></script>
+<html>
+    <div class="container">
+        <h1 class="page-title"> Conversor de Moedas</h1>
+        <p class="page-subtitle">Descubra os valores em cada moeda</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""> <br><br>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter</button>
+        <h2 id="valorConvertido"></h2><br>
+        <label for="dolar">
+            <input id="dolar-button" type="radio" name="coin" value="dolar" checked />Dolar<br>
+        </label>
+        <label for="euro">
+            <input id="euro-button" type="radio" name="coin" value="euro" />Euro<br>
+        </label>
+        <label for="yen">
+            <input id="yen-button" type="radio" name="coin" value="yen" />Yen<br>
+        </label>
+        <label for="bitcoin">
+            <input id="bitcoin-button" type="radio" name="coin" value="bitcoin" />Bitcoin
+        </label>
+
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"><br></a>
+    </a>
+</html>
